@@ -1,0 +1,13 @@
+Movies Table
+  - id, title, year, duration, description, average_vote, production_company_id
+
+Proudction_Companies Table (1 to many)
+  - id, Name
+
+movies_genres Table (joiner table)
+  - movie_id, genre_id
+
+Genres table (many to many with movies)
+  - id, Name
+
+There's also auto generated created_at and updated_at properties
